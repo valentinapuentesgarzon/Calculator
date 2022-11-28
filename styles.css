@@ -3,7 +3,7 @@
 *{
     padding: 0 ;
     margin: 0 ;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 
@@ -12,6 +12,9 @@
     margin: 2rem;
     display: grid;
     padding: 2rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: inset 0 0 20pxpx rgb(29, 29, 46);
+
 }
 
 .container > button {
@@ -24,7 +27,7 @@
     display: inline-block;
     min-width: 100px;
     height: 5rem;
-    
+
 }
 .output > input {
     width: 100%;
@@ -34,14 +37,14 @@
 }
 
 #circle-1, #circle-2, #circle-3 {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 60%;    
+    width: 5px;
+    height: 5px; 
+    border-radius: 60%;
 }
 
 #circle-1, #circle-2 {
     border: solid #FFFFFF 1rem;
-    margin-left: 1rem;
+    margin-left: 1rem; 
 }
 
 #circle-3 {
@@ -62,7 +65,7 @@
 .circle1B {
     display: flex;
     justify-content: flex-end;
-}
+} 
 
 .buttons {
     display: grid;
@@ -71,7 +74,7 @@
     grid-gap: 10px 6px;
     margin-right: 1rem;
     margin-bottom: 2rem;
-    
+
 }
 
 .buttons > button {
@@ -90,6 +93,7 @@
 
 .button-number {
     -webkit-box-shadow: inset 0 0 15px rgb(96, 96, 104);
+
 }
 
 #equal {
@@ -99,6 +103,7 @@
 #operation {
     background-color: rgb(84, 194, 185);
     -webkit-box-shadow: inset 0 0 15px rgb(32, 85, 81);
+
 }
 #C {
     background-color: rgb(234, 40, 70);
@@ -109,19 +114,39 @@
     background-color: rgb(67, 141, 243);
     color: #FFFFFF;
     -webkit-box-shadow: inset 0 0 15px rgb(30, 68, 122);
-    
+
 }
 
 .icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(249, 247, 247);
 }
 
-@media screen and ({
+@media screen and (max-width:400px){
+    .container {
+        margin: 1.5rem 0 0 0;
+    }
+
+    .buttons > button {
+        height: 10vh;
+        background-color: #FFFFFF;
+        font-size: 25px;
+    }
 
     
+
+
+
+
+
+
+
 }
+
+
+
 
 
 

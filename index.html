@@ -15,7 +15,7 @@
       <div class="container">
 
         <div class="output">
-          <input type="text" id="result" placeholder="0">
+          <input class= "display" type="text" id="result" placeholder="0">
          </div>
 
          
@@ -31,48 +31,38 @@
         </div>
 
         <div class="buttons">
-            <button class="button-number">7</button>
-            <button class="button-number">8</button>
-            <button class="button-number">9</button>
-            <button class="button-icon" id="operation">
-              <div class="icon" id="divided">
-                <iconify-icon icon="ic:baseline-divide" style="color: white;"></iconify-icon>
-              </div>
+            <button name="data-number" class="button-number">7</button>
+            <button name="data-number" class="button-number">8</button>
+            <button name="data-number" class="button-number">9</button>
+            <button name="data-opera" class="button-icon" id="operation">
+              <div class="icon" id="divided">/</div>
             </button>
-            <button id="C">C</button>
-            <button class="button-number">4</button>
-            <button class="button-number">5</button>
-            <button class="button-number">6</button>
-            <button class="button-icon" id="operation">
-              <div class="icon">
-                <iconify-icon icon="typcn:times" style="color: white;"></iconify-icon>
-              </div>
+            <button name ="data-deleted" id="C">C</button>
+            <button name= "data-number" class="button-number">4</button>
+            <button name= "data-number" class="button-number">5</button>
+            <button name= "data-number" class="button-number">6</button>
+            <button name="data-opera" class="button-icon" id="operation">
+              <div class="icon">x</div>
             </button>
             <button class="button-icon" id="letter">
-              <div class="icon" >
+              <div class="icon">
                 <iconify-icon icon="material-symbols:attach-email" style="color: white;"></iconify-icon>
               </div>
             </button> 
-            <button class="button-number">1</button>
-            <button class="button-number">2</button>
-            <button class="button-number">3</button>
-            <button class="button-icon" id="operation">
-              <div class="icon">
-                <iconify-icon icon="ic:round-minus" style="color: white;"></iconify-icon>
-              </div>
+            <button name= "data-number" class="button-number">1</button>
+            <button name= "data-number" class="button-number">2</button>
+            <button name= "data-number" class="button-number">3</button>
+            <button name="data-opera" class="button-icon" id="operation">
+              <div class="icon"> - </div>
             </button>
-            <button id="porcentaje">%</button>
-            <button class="button-number">0</button>
+            <button name="data-opera" id="porcentaje">%</button>
+            <button name= "data-number" class="button-number">0</button>
             <button class="button-number">.</button>
-            <button class="button-icon" id="equal">
-              <div class="icon" >
-                <iconify-icon icon="mdi:equal" style="color: white;" height="60px"></iconify-icon>
-              </div>
+            <button name="data-equal" class="button-icon" id="equal">
+              <div class="icon" > = </div>
             </button>
-            <button class="button-icon" id="operation">
-              <div class="icon">
-                <iconify-icon icon="ic:baseline-plus" style="color: white;"></iconify-icon>
-              </div>
+            <button  name="data-opera" class="button-icon" id="operation">
+              <div class="icon"> +  </div>
             </button>
             <div class="col">
             <!-- null -->
@@ -83,7 +73,7 @@
 
       </div>
 
-
+      <script src="script.js"></script>
     
      
   </body>
